@@ -29,6 +29,7 @@ printf("%s, %s\n", name, PERSON);
 printf("Ваше имя состоит из %lu символов и занимает %lu ячеек памяти.\n", (unsigned long)strlen(name), (unsigned long)sizeof name);
 printf("Хвалебная речь занимает %lu ячеек памяти.\n", (unsigned long)sizeof(PERSON));
 printf("Хвалебная речь состоит из %lu букв.\n", (unsigned long)strlen(PERSON));
+///////////////////////////////////////////////////////////////////////////////////////
 float area,circum,radius;//обЪявляем переменные площадь,длина окружности, радиус
 printf("Какой радиус Вашей пиццы ?");
 scanf("%f",&radius);
