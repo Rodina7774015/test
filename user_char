@@ -1,0 +1,19 @@
+// Н а п и ш и т е программу, которая читает слово в с и м в о л ь н ы й массив, а затем в ы ­
+// водит это слово в о б р а т н о м порядке. Подсказка: воспользуйтесь ф у н к ц и е й
+// strlen () (глава 4) для в ычисления индекса последнего символа массива.
+#include<stdio.h>
+#include <string.h>
+
+int main()
+{
+   char user_input[40];
+   int user_output;
+   printf("Введите любое слово \n");
+   if (scanf("%s",user_input)==1)
+   {   user_output=strlen(user_input);
+       printf("%d\n",user_output);
+       for (int i=(user_output-1);i>=0;i--)
+       printf("%c",user_input[i]);
+   }
+   
+}
